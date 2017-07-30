@@ -1,0 +1,13 @@
+- .gitignore
+# Distribution
+#dist/
+
+- https://github.com/observing/pre-commit
+npm init
+npm install --save-dev pre-commit
+
+- package.json
+  "scripts": {
+    "build": "elm-app build"
+  },
+- test:    npm run build

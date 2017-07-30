@@ -1,0 +1,24 @@
+{
+  "name": "murta-payments",
+  "version": "1.0.0",
+  "description": "This project is bootstrapped with [Create Elm App](https://github.com/halfzebra/create-elm-app).",
+  "scripts": {
+    "build": "elm-app build"
+  },
+  "pre-commit": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Abrigo.cz/murta-payments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Abrigo.cz/murta-payments/issues"
+  },
+  "homepage": "https://gitlab.com/Abrigo.cz/murta-payments#README",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
